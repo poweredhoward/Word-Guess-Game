@@ -1,0 +1,13 @@
+.letters {
+	margin: 10px;
+	padding: 2px;
+}
+
+#newgame {
+	visibility: hidden;
+}
+
+#lettersguessed {
+	display: inline;
+	height: 100%;
+}
