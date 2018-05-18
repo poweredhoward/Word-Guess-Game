@@ -3,9 +3,11 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
+        <title>Hangman</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 
         <link rel="stylesheet" href="assets/css/reset.css">
         <link rel="stylesheet" href="assets/css/style.css">
@@ -13,7 +15,10 @@
     </head>
     <body>
         <!-- Lakers theme -->
-        <h1>Hangman</h1>
+        <h1>Guess the NBA Superstar!</h1>
+        <div>
+            <img id="hangmanpic" alt= "Hangman Picture" src = "assets/images/hangman-0.png">
+        </div>
 
         <div id = "wordsection">
 
@@ -38,11 +43,6 @@
         <div>
             <button id="newgame" onclick="newgame()">New Game</button>
         </div>
-
-
-
-
-
 
         <script src="assets/javascript/game.js"></script>
 
